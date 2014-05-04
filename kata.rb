@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require 'minitest/pride'
 
-class CalculatorTest < Minitest::Test
+class CalculatorTest < MiniTest::Unit::TestCase
 
   def setup
     @calc = Calculator.new
